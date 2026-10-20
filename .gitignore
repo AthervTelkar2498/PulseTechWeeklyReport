@@ -1,0 +1,51 @@
+# ==========================================
+# PulseTech Weekly Report & Code - .gitignore
+# ==========================================
+
+# Environments & secrets
+.env
+*.env.local
+*.env.production
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+.npm/
+.eslintcache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Caches & temporary logs
+backend/reaction_cache_data/
+backend/report_cache_data/
+backend/gnn/checkpoints/
+*.log
+security_audit.log
+*.pid
+*.seed
+
+# Test outputs
+backend/test.pdf
+backend/test_6500.pdf
+backend/parsed_results.txt
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
